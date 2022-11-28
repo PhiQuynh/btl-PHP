@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: linear-gradient(315deg, #08e1ae 0%, #98de5b 74%);
+}
+
+body {
+  font-family: "Roboto", "Helvetica Neue";
+  overflow-x: hidden;
+}
+/* .content {
+  margin-top: 50px;
+  min-height: 300px;
+} */
+
+/* FIRST COL */
+.order__menu__list {
+  margin: 50px 30px 0;
+  box-shadow: 0 4px 10px 0 #98de5b, 0 4px 20px 0 rgb(0 0 0 / 19%);
+  width: 320px;
+  height: 250px;
+  border-radius: 5px;
+  position: fixed;
+}
+
+.order_item {
+  box-shadow: 0 4px 10px 0#98de5b, 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.order__menu__list h5 {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-bottom: 1px solid #f1f1f1;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+.order__menu__list li {
+  list-style-type: none;
+  padding: 5px;
+  font-family: "Patrick Hand", cursive;
+  font-size: 16px;
+  display: flex;
+}
+.number__money {
+  color: rgb(41, 38, 38);
+}
+.border-bottom {
+  border-bottom: 1px solid;
+}
+
+.order__cart {
+  width: 21%;
+  height: max-content;
+  box-shadow: 0 4px 10px 0 #98de5b, 0 4px 20px 0 rgb(0 0 0 / 19%);
+  position: fixed;
+  border-radius: 5px;
+  right: 30px;
+  top: 70px;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.order__cart-title {
+  height: 40px;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-family: "PT Sans Caption", sans-serif;
+}
+@media (max-width: 768px) {
+  .col-6 {
+    width: 100%;
+  }
+  .m-3 {
+    width: 80% !important;
+  }
+}
+.del {
+  position: absolute;
+  right: 20px;
+  font-weight: normal;
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.order__cart-content {
+  height: max-content;
+  width: 100%;
+  border-top: 0.5px solid rgb(212, 212, 212);
+  padding: 15px;
+  font-size: 13px;
+}
+
+.order__cart-content-product {
+  height: max-content;
+  width: 100%;
+  margin: 15px 0;
+  display: flex;
+}
+
+.order__cart-content-product span {
+  line-height: 32px;
+  font-weight: 500;
+  margin-right: 5px;
+  font-size: 13px;
+}
+
+.order__cart-content button {
+  background-image: var(--primary-color);
+  border: none;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.btn-primary {
+  height: 35px;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.order-milktea-title {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  width: 94%;
+  margin-left: 1%;
+  font-weight: 600;
+}
+
+.order-milktea-title i {
+  position: absolute;
+  right: 30px;
+  line-height: 40px;
+}
+
+.TraSuaMoiNgay {
+  display: flex;
+  width: 100%;
+}
+
+.KemTuoiMoiNgay {
+  display: flex;
+}
+
+.m-3 img {
+  width: 100%;
+  height: 220px;
+}
+
+.hidden_text {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .an {
+    display: none;
+  }
+}
+
+.icon__tea {
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .an {
+    display: none;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .m-3 {
+    width: 85% !important;
+  }
+}

@@ -1,0 +1,40 @@
+.btn {
+  position: relative;
+  z-index: 1;
+  border: none !important;
+  border: 1px solid var(--green) !important;
+  background-color: white !important;
+  color: var(--green) !important;
+}
+.btn::before {
+  content: "";
+  background-color: var(--green);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  transform: scaleX(0);
+  z-index: -1;
+  transition: 1000ms;
+  transform-origin: left;
+  border-radius: 50rem;
+}
+.btn:hover {
+  color: var(--black) !important;
+}
+.btn:hover::before {
+  transform: scaleX(1);
+}
+.btn-slide {
+  border: 1px solid var(--green);
+  color: var(--green);
+  border-radius: 5px;
+  padding: 0.4rem 0.8rem;
+}
+.btn-slide:hover {
+  background-color: var(--green);
+  color: var(--black);
+  border-color: var(--black);
+}
